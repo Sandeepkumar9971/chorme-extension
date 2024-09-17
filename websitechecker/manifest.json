@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Website Language Detector",
+    "version": "1.0",
+    "description": "Detects the programming languages, frameworks, and tools used in a website.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
